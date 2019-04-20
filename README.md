@@ -33,11 +33,11 @@ yarn add xy-button
 
 ## 使用
 
-```ts
+```tsx
 import React from "react";
 import ReactDOM from "react-dom";
-import XyButton from "xy-button";
-ReactDOM.render(<XyButton />, container);
+import { Button, ButtonGroup } from "xy-button";
+ReactDOM.render(<Button>按钮</Button>, container);
 ```
 
 ## 开发
