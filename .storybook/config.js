@@ -3,8 +3,9 @@ import { addParameters, configure, storiesOf } from "@storybook/react";
 import { withInfo } from "@storybook/addon-info";
 import readme from "../README.md";
 import Markdown from "./component/MyMarkdown";
-import Component from "../src";
+import { Button } from "../src/Button";
 import "./index.css";
+import "../src/assets";
 
 function createExamplesStories() {
     const exampleStories = storiesOf("Examples", module);
@@ -22,14 +23,14 @@ function loadStories() {
     storiesOf("Api", module)
         .addDecorator(withInfo)
         .addParameters({ info: { inline: true, source: false } })
-        .add("Props", () => <Component />);
+        .add("Props", () => <Button>按钮</Button>);
 
     createExamplesStories();
 }
 
 addParameters({
     options: {
-        showPanel: false
-    }
+        showPanel: false,
+    },
 });
 configure(loadStories, module);
