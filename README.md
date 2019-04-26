@@ -25,10 +25,10 @@
 
 ```sh
 # npm
-npm install --save xy-button
+npm install --save xy-button classnames
 
 # yarn
-yarn add xy-button
+yarn add xy-button classnames
 ```
 
 ## 使用

@@ -1,7 +1,7 @@
 {
     "name": "xy-button",
-    "version": "0.0.2",
-    "description": "基于React的基础组件",
+    "version": "0.0.3",
+    "description": "基于React的按钮组件",
     "types": "es/index.d.ts",
     "main": "es/index.js",
     "module": "es/index.js",
@@ -10,7 +10,7 @@
     "files": [
         "es",
         "dist",
-        "assets/*.css"
+        "assets"
     ],
     "scripts": {
         "test": "quick-react-scripts test",
@@ -64,10 +64,5 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/xueyou2000/xy-button.git"
-    },
-    "jest": {
-        "transformIgnorePatterns": [
-            "<rootDir>/node_modules/(?!(utils-hooks|@fortawesome/react-fontawesome|@fortawesome/free-regular-svg-icons))"
-        ]
     }
 }
