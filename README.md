@@ -17,7 +17,7 @@
 
 # Button
 
-按钮用于开始一个即时操作。[](https://xueyou2000.github.io/xy-button/demo)
+按钮用于开始一个即时操作。[在线例子](https://xueyou2000.github.io/xy-button/demo)
 
 ## 安装
 
