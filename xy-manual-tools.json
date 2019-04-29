@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Basic",
+        "title": "按钮类型",
+        "desc": "按钮有四种类型：主按钮、次按钮、虚线按钮、危险按钮。主按钮在同一个操作区域最多出现一次。"
+    },
+    {
+        "name": "ShapeAndIcon",
+        "title": "按钮形状和图标",
+        "desc": "支持半圆和圆形, 并且使用fortawesome的SVG图标"
+    },
+    {
+        "name": "Size",
+        "title": "按钮尺寸",
+        "desc": "通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。"
+    },
+    {
+        "name": "Disabled",
+        "title": "禁用状态",
+        "desc": "添加 disabled 属性即可让按钮处于不可用状态，无法触发click事件， 同时按钮样式也会改变。"
+    },
+    {
+        "name": "Loading",
+        "title": "加载中状态",
+        "desc": "添加 loading 属性即可让按钮处于加载中状态，同样无法触发click事件， 同时按钮样式也会改变。"
+    },
+    {
+        "name": "Ghost",
+        "title": "幽灵按钮",
+        "desc": "幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。"
+    },
+    {
+        "name": "ButtonGroup",
+        "title": "按钮组",
+        "desc": "可以将多个 Button 放入 Button.Group 的容器中。"
+    },
+    {
+        "name": "IconButtonGroup",
+        "title": "图标按钮组",
+        "desc": "可以将多个 图标Button 放入 Button.Group 的容器中。"
+    }
+]
