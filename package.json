@@ -44,7 +44,7 @@
         "quick-react-scripts": "^1.0.0",
         "react-testing-library": "^6.0.0",
         "xy-checkbox": "^1.1.1",
-        "xy-manual-tools": "0.0.3"
+        "xy-manual-tools": "0.0.4"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.17",

@@ -8936,10 +8936,10 @@ xy-grid@^0.0.3:
     react-dom "^16.8.2"
     utils-hooks "0.0.65"
 
-xy-manual-tools@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npm.taobao.org/xy-manual-tools/download/xy-manual-tools-0.0.3.tgz#5d85bb81ba795bcaf91fa0b4e4ebb9f3e7da82be"
-  integrity sha1-XYW7gbp5W8r5H6C05Ou58+fagr4=
+xy-manual-tools@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npm.taobao.org/xy-manual-tools/download/xy-manual-tools-0.0.4.tgz#524c8f459ccd2257314c4d2cc2e617ba9bc5fc47"
+  integrity sha1-UkyPRZzNIlcxTE0swuYXupvF/Ec=
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.17"
     "@fortawesome/free-solid-svg-icons" "^5.8.1"
