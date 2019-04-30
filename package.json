@@ -1,6 +1,6 @@
 {
     "name": "xy-button",
-    "version": "0.0.4",
+    "version": "1.0.0",
     "description": "基于 React Hooks 的按钮组件",
     "types": "es/index.d.ts",
     "main": "es/index.js",
@@ -41,7 +41,7 @@
         "@types/node": "11.9.4",
         "@types/react": "16.8.4",
         "@types/react-dom": "16.8.2",
-        "quick-react-scripts": "^1.0.0",
+        "quick-react-scripts": "^1.1.2",
         "react-testing-library": "^6.0.0",
         "xy-checkbox": "^1.1.1",
         "xy-manual-tools": "0.0.4"
