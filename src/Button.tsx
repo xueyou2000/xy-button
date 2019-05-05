@@ -10,7 +10,7 @@ const isTwoCNChar = rxTwoCNChar.test.bind(rxTwoCNChar);
 export function Button(props: ButtonProps) {
     const { prefixCls = "xy-button", className, style, children, type, shape, size, long, ghost, icon, loading, disabled, onClick } = props;
     const [hasTwoCNChar, setHasTwoCNChar] = useState(false);
-    const ref = useRef();
+    const ref = useRef(null);
     const classString = classNames(prefixCls, className, style, {
         [`${prefixCls}-type-${type}`]: !!type,
         [`${prefixCls}-shape-${shape}`]: !!shape,
@@ -19,7 +19,7 @@ export function Button(props: ButtonProps) {
         [`${prefixCls}-ghost`]: ghost,
         [`${prefixCls}-loading`]: loading,
         [`${prefixCls}-long`]: long,
-        "two-chinese-chars": hasTwoCNChar,
+        "two-chinese-chars": hasTwoCNChar
     });
 
     useLayoutEffect(() => {

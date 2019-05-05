@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "xy-button";
-import "xy-button/assets/index";
+import { Button } from "../src";
+import "../src/assets/index";
 import "./index.scss";
 
 export default function() {

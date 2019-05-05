@@ -1,6 +1,7 @@
 import { faAudioDescription, faEye, faFlag, faHourglass } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { Button, ButtonGroup } from "../src";
+import "../src/assets/index";
 
 export default function() {
     return (
