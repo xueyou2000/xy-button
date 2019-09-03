@@ -1,6 +1,6 @@
 {
     "name": "xy-button",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "基于 React Hooks 的按钮组件",
     "types": "es/index.d.ts",
     "main": "es/index.js",
@@ -36,15 +36,15 @@
         "registry": "http://registry.npmjs.org/"
     },
     "devDependencies": {
+        "@testing-library/react": "^9.1.3",
         "@types/classnames": "^2.2.7",
-        "@types/jest": "24.0.6",
-        "@types/node": "11.9.4",
-        "@types/react": "16.8.2",
-        "@types/react-dom": "16.8.2",
-        "quick-react-scripts": "1.1.9",
-        "react-testing-library": "^6.0.0",
+        "@types/jest": "24.0.18",
+        "@types/node": "12.7.3",
+        "@types/react": "16.9.2",
+        "@types/react-dom": "16.9.0",
+        "quick-react-scripts": "^1.2.2",
         "xy-checkbox": "^1.1.1",
-        "xy-manual-tools": "0.1.4"
+        "xy-manual-tools": "^0.1.65"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.17",
